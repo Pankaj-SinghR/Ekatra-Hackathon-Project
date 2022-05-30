@@ -6,15 +6,33 @@
 ### Prerequisite
 - ##### Python3 should be install in your system 
 - ##### API KEY of OpenAI should be present
-##### Clone this github repo
+#### Clone this github repo
 ```
 git clone https://github.com/Pankaj-SinghR/Ekatra-Hackathon-Project.git
 ```
-##### Change directory
+#### Change directory
 ```
 cd Ekatra-Hackathon-Project/Ekatra-Hackathon/
 ```
-##### Add API key in API_KEY file
+#### Add API key in API_KEY file
 ```
-echo "<YOUR API KEY GOES HERE>" > API_KEY
+echo "YOUR API KEY GOES HERE" > API_KEY
+```
+- ######  Or simply copy & paste API key inside the API_KEY file if your are window user
+#### Change directory to previous one
+```
+cd ..
+```
+#### Create a Virtual Environment for this project
+```
+python3 -m venv env
+```
+#### Activate the Virtual Environment
+- ##### On Window
+```
+env\Scripts\activate.bat
+```
+- ##### On Linux & Mac OS
+```
+source env/bin/activate
 ```
