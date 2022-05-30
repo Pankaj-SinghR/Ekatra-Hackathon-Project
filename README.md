@@ -100,7 +100,7 @@ python3 main.py -input <pass your web article link here> -type w
 ```
 python3 main.py -input <pass your youtube video link here> -type y
 ```
-### About output file (output.txt/ ouput.json)
+### About output file (output.txt / output.json)
 #### Output file contains 
 - ##### Summary (summarized form of Input paragraph)
 - ##### Key Points (Key points have important points from Input paragraph)
