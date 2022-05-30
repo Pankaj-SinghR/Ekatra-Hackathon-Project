@@ -10,7 +10,7 @@ try:
         print(e)
         exit()
 
-    pdfToSpeech = gTTS(pdfToString, lang='es')
+    pdfToSpeech = gTTS(pdfToString, lang='en')
     pdfToSpeech.save('./output_audio.mp3')
 
 except Exception as e:
