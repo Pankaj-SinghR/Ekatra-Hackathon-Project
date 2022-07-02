@@ -114,4 +114,3 @@ OUTPUT:
 ```
 output_audio.mp3
 ```
-## LINK TO YOUTUBE DEMO VIDEO
